@@ -23,6 +23,8 @@
 		background: none !important;
 		padding: 0 !important;
 	}
+
+
 </style>
 <link property="stylesheet" rel="stylesheet" id="wp-block-library-css" href="css/style.min.css" type="text/css" media="all">
 <style id="classic-theme-styles-inline-css" type="text/css">
@@ -613,8 +615,11 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 					<span  style="color:#ffffff;background-color:#c19b76;">
 						Portfolio					</span>
 				</h2><!-- /.sc_accordionposts_item_subtitle -->
-			
+				
 			<span class="section_icon"></span>
+		
+		
+	
 		</div>
 
 	<div class="sc_accordionposts_item_inner">
@@ -629,78 +634,85 @@ body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: 
 
 <article class="myportfolio-container esg-grid-wrap-container minimal-light esg-entry-skin-law-custom source_type_post" id="esg-grid-1-1-wrap" data-alias="portfolio-grid">
 
-   <div id="esg-grid-1-1" class="esg-grid" style="background: transparent;padding: 0px 0px 0px 0px ; box-sizing:border-box; -moz-box-sizing:border-box; -webkit-box-sizing:border-box; display:none">
-<article class="esg-filters esg-singlefilters" style="margin-bottom: 0px; text-align: left; "><!-- THE FILTER BUTTON --><div class="esg-filter-wrapper  esg-fgc-1" style="margin-left: 2.5px; margin-right: 2.5px;"><div class="esg-mobile-filter-button"><span>Filter Categories</span><i class="eg-icon-down-open"></i></div>
-    <div class="esg-filterbutton selected esg-allfilter" data-filter="filterall" data-fid="-1"><span></span></div>
-    <div class="esg-filterbutton" data-fid="17" data-filter="filter-S.A"><span>Data Visualization</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="19" data-filter="filter-S.A"><span>Programming</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton" data-fid="18" data-filter="filter-S.A"><span>Statistical Analysis</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="esg-filterbutton-last esg-filterbutton" data-fid="20" data-filter="filter-S.A"><span>AI/ML Skills</span><span class="esg-filter-checked"><i class="eg-icon-ok-1"></i></span></div><div class="eg-clearfix"></div></div></article><div class="esg-clear-no-height"></div><ul>
+	<div id="esg-grid-1-1" class="esg-grid" style="background: transparent; padding: 0px; box-sizing: border-box; display: block;">
+		<div data-elementor-type="wp-post" data-elementor-id="150" class="elementor elementor-150 elementor-bc-flex-widget">
+			<section class="elementor-section elementor-top-section elementor-element elementor-element-d4064c3 elementor-section-boxed elementor-section-height-default" data-id="d4064c3" data-element_type="section">
+				<div class="elementor-container">
+					<div class="elementor-column">
+						<div class="elementor-widget-wrap elementor-element-populated">
+							<div class="elementor-element elementor-widget elementor-widget-trx_sc_title" data-id="b8d159c" data-element_type="widget" data-widget_type="trx_sc_title.default">
+								<div class="elementor-widget-container">
+									<div id="trx_sc_title_1817968886" class="sc_title sc_title_accent">
+										<h5 class="sc_item_title sc_title_title sc_align_none sc_item_title_style_accent sc_item_title_tag">Weather Data Pipeline Project</h5>
+									</div>
+								</div>
+							</div>
+	eiii sdfsafsa
+							<p>
+							<!-- Image that triggers the popup -->
+<img src="images/weather_project_screenshot.png" alt="Weather Data Visualization" style="cursor: pointer; width: 100%; max-width: 600px;" id="popupImage">
 
-<li id="eg-1-post-id-166_2405" data-skin="law-custom" class="filterall filter-accident-victims filter-family-law filter-personal-injury filter-info filter-S.A eg-law-custom-wrapper eg-post-id-166" data-date="1524055055">
-    <div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img decoding="async" class="esg-entry-media-img"  src="images/weather_project_screenshot.png" data-no-lazy="1" alt="" width="1920" height="1280"></div>
+<!-- Modal Structure -->
+<div id="popupModal" style="display: none; position: fixed; z-index: 1000; left: 0; top: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.8);">
+  <img src="images/weather_project_screenshot.png" alt="Weather Data Visualization" style="margin: auto; display: block; max-width: 90%; max-height: 90%;">
+  <span style="position: absolute; top: 20px; right: 30px; color: white; font-size: 30px; font-weight: bold; cursor: pointer;" id="closeModal">&times;</span>
+</div>
 
-            <div class="esg-entry-cover" data-clickable="on">
+<script>
+  // JavaScript for Modal Functionality
+  const popupImage = document.getElementById("popupImage");
+  const popupModal = document.getElementById("popupModal");
+  const closeModal = document.getElementById("closeModal");
 
-<a class="eg-invisiblebutton  esgbox" href="images/weather_project_screenshot.png" data-thumb=""  data-caption="&lt;div class=&quot;esgbox-caption-title&quot;&gt;Statistical Analysis.&lt;/div&gt;"  data-width="1920"  data-height="1280" >Statistical Analysis.</a>                <div class="esg-overlay esg-transition eg-law-custom-container" data-delay="0" data-duration="default" data-transition="esg-fade"></div>
+  // Function to disable background scrolling
+  function disableScroll() {
+    document.body.style.overflow = "hidden";
+  }
 
-				<div class="esg-center eg-post-166 eg-law-custom-element-3 esg-transition" data-delay="0.15" data-duration="default" data-transition="esg-skewright">Programming Skills.</div>
-              <div class="esg-center eg-law-custom-element-7 esg-none esg-clear esg-line-break"></div>
-			  <div class="esg-center eg-post-161 eg-law-custom-element-5-a esg-transition" data-delay="0.1" data-duration="default" data-transition="esg-skewleft">Utilize coding for analysis.</div>           </div>
-   </div>
+  // Function to enable background scrolling
+  function enableScroll() {
+    document.body.style.overflow = "auto";
+  }
 
-</li>
+  // Show the modal and disable scrolling when the image is clicked
+  popupImage.onclick = function () {
+    popupModal.style.display = "block";
+    disableScroll();
+  };
 
-<li id="eg-1-post-id-166_2405" data-skin="law-custom" class="filterall filter-accident-victims filter-family-law filter-personal-injury filter-info filter-S.A eg-law-custom-wrapper eg-post-id-166" data-date="1524055055">
-    <div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img decoding="async" class="esg-entry-media-img"  src="images/weather_project_screenshot.png" data-no-lazy="1" alt="" width="1920" height="1280"></div>
+  // Close the modal and enable scrolling when the close button is clicked
+  closeModal.onclick = function () {
+    popupModal.style.display = "none";
+    enableScroll();
+  };
 
-            <div class="esg-entry-cover" data-clickable="on">
+  // Close the modal and enable scrolling when clicking outside the image
+  window.onclick = function (event) {
+    if (event.target === popupModal) {
+      popupModal.style.display = "none";
+      enableScroll();
+    }
+  };
+</script>
 
-<a class="eg-invisiblebutton  esgbox" href="images/weather_project_screenshot.png" data-thumb=""  data-caption="&lt;div class=&quot;esgbox-caption-title&quot;&gt;Statistical Analysis.&lt;/div&gt;"  data-width="1920"  data-height="1280" >Statistical Analysis.</a>                <div class="esg-overlay esg-transition eg-law-custom-container" data-delay="0" data-duration="default" data-transition="esg-fade"></div>
-
-				<div class="esg-center eg-post-166 eg-law-custom-element-3 esg-transition" data-delay="0.15" data-duration="default" data-transition="esg-skewright">Programming Skills.</div>
-              <div class="esg-center eg-law-custom-element-7 esg-none esg-clear esg-line-break"></div>
-			  <div class="esg-center eg-post-161 eg-law-custom-element-5-a esg-transition" data-delay="0.1" data-duration="default" data-transition="esg-skewleft">Utilize coding for analysis.</div>           </div>
-   </div>
-
-</li>
-
-<li id="eg-1-post-id-166_2405" data-skin="law-custom" class="filterall filter-accident-victims filter-family-law filter-personal-injury filter-info filter-S.A eg-law-custom-wrapper eg-post-id-166" data-date="1524055055">
-    <div class="esg-media-cover-wrapper">
-<div class="esg-entry-media"><img decoding="async" class="esg-entry-media-img"  src="images/weather_project_screenshot.png" data-no-lazy="1" alt="" width="1920" height="1280"></div>
-
-            <div class="esg-entry-cover" data-clickable="on">
-
-<a class="eg-invisiblebutton  esgbox" href="images/weather_project_screenshot.png" data-thumb=""  data-caption="&lt;div class=&quot;esgbox-caption-title&quot;&gt;Statistical Analysis.&lt;/div&gt;"  data-width="1920"  data-height="1280" >Statistical Analysis.</a>                <div class="esg-overlay esg-transition eg-law-custom-container" data-delay="0" data-duration="default" data-transition="esg-fade"></div>
-
-				<div class="esg-center eg-post-166 eg-law-custom-element-3 esg-transition" data-delay="0.15" data-duration="default" data-transition="esg-skewright">Programming Skills.</div>
-              <div class="esg-center eg-law-custom-element-7 esg-none esg-clear esg-line-break"></div>
-			  <div class="esg-center eg-post-161 eg-law-custom-element-5-a esg-transition" data-delay="0.1" data-duration="default" data-transition="esg-skewleft">Utilize coding for analysis.</div>           </div>
-   </div>
-
-</li>
-
+		
+							<div class="elementor-element elementor-widget elementor-widget-spacer" data-id="99a2968" data-element_type="widget" data-widget_type="spacer.default">
+								<div class="elementor-widget-container">
+									<div class="elementor-spacer">
+										<div class="elementor-spacer-inner"></div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+	</div>
+	
+	
 </ul>
 
-<div class="project">
-    <h2>Weather Data Pipeline Project</h2>
-    <p>
-      A Python-based project that fetches, processes, and visualizes weather data 
-      for multiple locations. It generates reports in text, Excel, and an interactive HTML format.
-    </p>
-    <h2>Weather Data Pipeline Project</h2>
-    <p>
-      A Python-based project that fetches, processes, and visualizes weather data 
-      for multiple locations. It generates reports in text, Excel, and an interactive HTML format.
-    </p>
-    
-    
-    <p>
-      <strong>Want a live demo?</strong> Contact me, and I'll guide you through it.
-    </p>
-  </div>
-  
-
-<article class="esg-filters esg-singlefilters" style="margin-top: 27px; text-align: left; "><div class="esg-pagination  esg-fgc-1" style="margin-left: 2.5px; margin-right: 2.5px;"></div></article><div class="esg-clear-no-height"></div>    </div>
 
 </article>
 <div class="clear"></div>
